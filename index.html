@@ -1,40 +1,691 @@
 <!doctype html>
+
 <html lang="ru">
+
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#090909">
-<title>PROKHATSKY — Collection 01</title><meta name="description" content="PROKHATSKY — Collection 01 / Black Red Core. Одежда с характером.">
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<meta name="theme-color" content="#090809">
+
+<title>PROKHATSKY — Black / Red Core</title>
+
 <style>
-:root{--bg:#090909;--panel:#121011;--ink:#f5f1ef;--muted:#aaa0a2;--line:#ffffff20;--red:#9d2445;--red2:#c1395d;--gold:#b69a6a;--green:#177d4b;--blue:#237fc0;--r:0px;--ease:cubic-bezier(.16,1,.3,1)}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:82px}body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,Helvetica,sans-serif;overflow-x:hidden}body.lock{overflow:hidden}button,input,select,textarea{font:inherit}button,a{touch-action:manipulation}button{color:inherit;cursor:pointer}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}::selection{background:var(--red);color:#fff}.grain{pointer-events:none;position:fixed;inset:0;z-index:80;opacity:.07;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.22'/%3E%3C/svg%3E")}.topline{height:2px;position:fixed;z-index:1000;top:0;left:0;width:0;background:linear-gradient(90deg,var(--red),#e6a0b0)}header{height:76px;position:fixed;inset:0 0 auto;z-index:100;padding:0 5%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid transparent;transition:.35s}header.scrolled{background:#090909e8;backdrop-filter:blur(16px);border-color:var(--line)}.brand{font-size:15px;letter-spacing:.26em;font-weight:800}.brand small{display:block;font-size:8px;letter-spacing:.42em;color:#a9a0a2;font-weight:400;margin-top:5px}.nav{display:flex;align-items:center;gap:23px}.nav a{font-size:9px;letter-spacing:.14em;color:#c3babc;text-transform:uppercase}.nav a:hover{color:#fff}.tools{display:flex;gap:8px;align-items:center}.lang,.iconbtn{border:1px solid #ffffff35;background:#141112;color:#eee;padding:10px 12px;font-size:10px;letter-spacing:.08em}.iconbtn{font-size:16px}.menu{display:none}.hero{height:100svh;min-height:700px;max-height:1050px;position:relative;display:flex;align-items:flex-end;padding:0 7% 8%;overflow:hidden;background:radial-gradient(ellipse at 78% 35%,#4b0e20 0,transparent 42%),linear-gradient(130deg,#080808,#151011 60%,#080808)}.hero:before{content:"";position:absolute;inset:-12%;opacity:.15;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180' viewBox='0 0 180 180'%3E%3Cg fill='none' stroke='%23b69a6a' stroke-width='1'%3E%3Ccircle cx='90' cy='90' r='35'/%3E%3Ccircle cx='90' cy='90' r='48'/%3E%3Cpath d='M90 18 L102 47 132 35 120 65 150 78 120 90 150 102 120 115 132 145 102 133 90 162 78 133 48 145 60 115 30 102 60 90 30 78 60 65 48 35 78 47Z'/%3E%3C/g%3E%3C/svg%3E");background-size:180px}.hero-art{position:absolute;inset:7% -2% 0 24%;display:flex;align-items:center;justify-content:center;z-index:1;pointer-events:none}.hero-art img{width:100%;height:100%;object-fit:contain;object-position:center bottom;mask-image:linear-gradient(#000 78%,transparent);animation:artIn 1.3s var(--ease) both}.hero-copy{z-index:2;position:relative;max-width:670px;animation:rise 1s var(--ease) both}.eyebrow{font-size:9px;letter-spacing:.28em;text-transform:uppercase;color:#d18b9d}.hero h1{font-size:clamp(65px,10vw,145px);line-height:.78;letter-spacing:-.09em;font-weight:400;margin:22px 0}.hero h1 span{display:block;color:#bd3155}.lead{max-width:410px;color:#c8bec0;font-size:12px;line-height:1.9;margin:24px 0 28px}.actions{display:flex;flex-wrap:wrap;gap:10px}.btn{display:inline-flex;align-items:center;justify-content:space-between;gap:20px;min-height:49px;padding:14px 18px;background:linear-gradient(135deg,#211c1e,#111);border:1px solid #716168;font-size:9px;letter-spacing:.13em;text-transform:uppercase;transition:transform .3s var(--ease),background .3s,border-color .3s;position:relative;overflow:hidden}.btn:hover{transform:translateY(-3px);border-color:#d9a4b2}.btn.primary{background:linear-gradient(120deg,#78172f,#bd3155);border-color:#d45b79}.btn.green{background:linear-gradient(120deg,#0e6739,#20965a);border-color:#45b879}.btn.blue{background:linear-gradient(120deg,#164b73,#2587c9);border-color:#56a9e9}.hero-foot{position:absolute;left:7%;right:7%;bottom:22px;display:flex;justify-content:space-between;color:#777;font-size:8px;letter-spacing:.18em;text-transform:uppercase;z-index:2}.vertical{position:absolute;right:3%;bottom:17%;writing-mode:vertical-rl;font-size:8px;letter-spacing:.2em;color:#9a7c85;z-index:2}section{padding:100px 7%;position:relative}.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:32px}.section-head h2{font-size:clamp(36px,5.6vw,75px);font-weight:400;line-height:.94;letter-spacing:-.075em;margin:12px 0 0}.muted{font-size:11px;line-height:1.9;color:var(--muted);max-width:330px}.collection{background:#0c0b0c}.grid{display:grid;grid-template-columns:1.08fr .92fr;gap:12px}.tile{min-height:300px;position:relative;overflow:hidden;background:#151315;border:1px solid #ffffff12;isolation:isolate}.tile.large{grid-row:span 2;min-height:620px}.tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 1s var(--ease),filter .5s}.tile:hover img{transform:scale(1.045);filter:brightness(1.08)}.tile:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(transparent,#000e);z-index:1}.tile-caption{position:absolute;z-index:2;left:18px;right:18px;bottom:18px;display:flex;align-items:end;justify-content:space-between;gap:10px}.tile-caption strong{display:block;font-size:13px;font-weight:500}.tile-caption small{display:block;margin-top:6px;font-size:8px;letter-spacing:.14em;color:#c0b7b9}.round{width:38px;height:38px;display:grid;place-items:center;border:1px solid #ffffff70;border-radius:50%;background:#0909099c;flex-shrink:0}.story{background:radial-gradient(ellipse at 82% 30%,#3b0b1950,transparent 43%),#090909}.story-grid{display:grid;grid-template-columns:.75fr 1.25fr;gap:8%;align-items:center}.story-copy h2{font-size:clamp(40px,6vw,80px);line-height:.9;letter-spacing:-.075em;font-weight:400;margin:18px 0}.story-copy p{font-size:12px;line-height:2;color:#aaa;max-width:410px}.specs{margin-top:26px;border-top:1px solid var(--line)}.spec{padding:14px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:15px;font-size:10px;color:#ccc}.spec span:last-child{color:#d0788d;text-align:right}.story-image{height:min(68vw,670px);min-height:420px;position:relative;overflow:hidden;background:#111}.story-image img{width:100%;height:100%;object-fit:cover}.viewer{background:#0d0c0d}.viewer-grid{display:grid;grid-template-columns:minmax(0,1fr) 255px;gap:16px}.viewer-stage{height:min(66vw,700px);min-height:420px;position:relative;overflow:hidden;touch-action:pan-y;user-select:none;background:radial-gradient(ellipse at 50% 42%,#2a1b20,#111 46%,#080808 78%);border:1px solid #ffffff18;cursor:ew-resize}.viewer-stage img{width:100%;height:100%;padding:8px;object-fit:contain;pointer-events:none;filter:drop-shadow(0 25px 28px #0009)}.viewer-badge{position:absolute;right:13px;top:13px;z-index:3;border:1px solid #ffffff2d;background:#080808b5;padding:8px 10px;font-size:8px;letter-spacing:.15em;color:#e1a2b0}.viewer-label{position:absolute;left:15px;bottom:15px;background:#080808b5;padding:9px 11px;font-size:8px;letter-spacing:.16em}.viewer-side{border:1px solid var(--line);padding:20px;background:#111}.viewer-side h3{font-size:22px;font-weight:400;margin:8px 0 10px}.price{font-size:23px;margin:20px 0}.price small{font-size:10px;color:#999}.size-row{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0 22px}.size{background:#171516;border:1px solid #ffffff25;padding:10px 13px;font-size:10px}.size.active{background:#8d1d3c;border-color:#d34d70}.viewer-side .btn{width:100%;margin-top:8px}.products{background:#101010}.product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.product{border:1px solid #ffffff1c;background:#131112;transition:transform .35s,border-color .35s}.product:hover{transform:translateY(-4px);border-color:#8e3a51}.product-photo{height:300px;position:relative;overflow:hidden;background:#1a1718}.product-photo img{width:100%;height:100%;object-fit:cover;transition:transform .8s var(--ease)}.product:hover .product-photo img{transform:scale(1.04)}.product-info{padding:17px}.product-info h3{font-weight:400;font-size:16px;margin:0 0 8px}.product-info p{font-size:9px;color:#aaa;letter-spacing:.12em;margin:0 0 15px}.product-bottom{display:flex;align-items:center;justify-content:space-between;gap:8px}.product-bottom strong{font-weight:500;font-size:15px}.mini{background:#8f1e3d;border:1px solid #c94c6b;padding:10px 12px;font-size:9px;letter-spacing:.1em}.details{background:#0a0909}.details-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.detail{border:1px solid var(--line);background:#111;padding:10px}.detail img{width:100%;aspect-ratio:1/1;object-fit:cover}.detail span{display:block;font-size:10px;margin:12px 3px 5px}.faq{max-width:850px;margin:auto}.faq details{border-top:1px solid var(--line);padding:19px 0}.faq summary{cursor:pointer;list-style:none;font-size:13px;display:flex;justify-content:space-between;gap:20px}.faq summary:after{content:'+';color:#d0788d;font-size:18px}.faq details[open] summary:after{content:'−'}.faq p{font-size:11px;color:#aaa;line-height:1.9;max-width:650px}.footer{padding:40px 7%;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:25px;flex-wrap:wrap;color:#8d8587;font-size:9px;letter-spacing:.12em}.footer b{color:#eee}.modal{position:fixed;inset:0;z-index:1000;background:#000d;display:none;align-items:flex-end;justify-content:center;padding:0}.modal.open{display:flex}.sheet{width:min(100%,760px);max-height:94svh;overflow:auto;background:#100e0f;border:1px solid #ffffff30;padding:22px 22px 30px;position:relative;animation:sheetIn .35s var(--ease)}.sheet-head{display:flex;justify-content:space-between;gap:15px;align-items:start;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:18px}.sheet-head h2{font-size:25px;font-weight:400;margin:0}.close{background:#242021;border:1px solid #ffffff35;padding:9px 12px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font-size:9px;color:#c7babe;letter-spacing:.13em;text-transform:uppercase}.field input,.field select,.field textarea{width:100%;min-height:45px;background:#080808;border:1px solid #ffffff2c;color:#f4f0ed;padding:12px;font-size:12px;border-radius:0;outline:none}.field input:focus,.field select:focus,.field textarea:focus{border-color:#b63b5c}.field textarea{min-height:80px;resize:vertical}.radio-line{display:flex;gap:8px;flex-wrap:wrap}.radio-line label{border:1px solid #ffffff25;padding:12px;background:#0b0a0a;display:flex;gap:8px;align-items:center;font-size:11px;letter-spacing:0;text-transform:none}.summary{margin:17px 0;padding:14px;border:1px solid var(--line);background:#0a0909;font-size:11px;line-height:1.9;color:#bbb}.summary strong{color:#fff}.qr-wrap{background:#fff;padding:10px;max-width:400px;margin:15px auto}.qr-wrap img{width:100%;height:auto;object-fit:contain}.pay-note{font-size:11px;color:#bbb;line-height:1.9;margin:14px 0}.upload{border:1px dashed #ffffff4d;padding:14px;background:#0b0a0a}.upload input{border:0;padding:6px 0}.file-name{font-size:10px;color:#d8a1af;margin-top:6px;overflow-wrap:anywhere}.checkline{display:flex;gap:10px;align-items:flex-start;font-size:11px;line-height:1.7;color:#bbb;margin:15px 0}.checkline input{margin-top:3px}.pay-timer{font-size:30px;letter-spacing:.08em;text-align:center;margin:5px 0 15px}.tiny{font-size:9px;color:#8e8587;line-height:1.7}.hidden{display:none!important}.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .8s var(--ease)}.reveal.in{opacity:1;transform:none}@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}@keyframes artIn{from{opacity:0;transform:scale(1.03)}to{opacity:1;transform:scale(1)}}@keyframes sheetIn{from{transform:translateY(30px);opacity:.5}to{transform:none;opacity:1}}@media(min-width:900px){.modal{align-items:center;padding:20px}.sheet{max-height:90svh}}@media(max-width:760px){header{height:68px;padding:0 5%}.nav{display:none;position:absolute;top:68px;left:0;right:0;padding:20px 6%;background:#0c0b0b;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start}.nav.open{display:flex}.menu{display:block;background:#141112;border:1px solid var(--line);padding:9px 12px}.hero{min-height:720px;padding:0 6% 105px}.hero-art{inset:8% -18% 12% 12%;opacity:.8}.hero-copy{max-width:88%}.hero h1{font-size:clamp(60px,16vw,105px)}.hero-foot{left:6%;right:6%;font-size:7px}section{padding:75px 6%}.section-head{align-items:flex-start;flex-direction:column}.grid{grid-template-columns:1fr 1fr}.tile.large{min-height:480px}.tile{min-height:230px}.story-grid{grid-template-columns:1fr;gap:30px}.story-image{height:90vw;min-height:300px}.viewer-grid{grid-template-columns:1fr}.viewer-stage{height:105vw;min-height:370px}.viewer-side{padding:16px}.product-grid{grid-template-columns:1fr 1fr}.product-photo{height:250px}.details-grid{grid-template-columns:1fr 1fr}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.sheet{padding:18px 16px 25px}.sheet-head h2{font-size:22px}.footer{padding:30px 6%}.vertical{right:2%;font-size:7px}}@media(max-width:390px){.product-grid{grid-template-columns:1fr}.product-photo{height:330px}.grid{grid-template-columns:1fr}.tile.large{grid-row:auto;min-height:430px}.tile{min-height:280px}.tools{gap:4px}.lang{padding:9px 8px}}
+
+:root{
+
+  --bg:#090809;--surface:#141114;--surface2:#1c171a;
+
+  --ink:#f5f0ee;--muted:#aaa0a3;--line:#ffffff1b;
+
+  --red:#9d2948;--red2:#d04d70;--green:#16824a;
+
+  --green2:#24a660;--blue:#247dc0;--gold:#b99b70;
+
+  --ease:cubic-bezier(.2,.8,.2,1)
+
+}
+
+*{box-sizing:border-box}
+
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,Helvetica,sans-serif;overflow-x:hidden}
+
+body:before{
+
+ content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;
+
+ background:radial-gradient(ellipse at 80% 10%,#54172945,transparent 38%),
+
+ radial-gradient(ellipse at 5% 55%,#39202a25,transparent 35%),
+
+ linear-gradient(135deg,#090809,#100c0f 55%,#090809)
+
+}
+
+body:after{
+
+ content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.12;
+
+ background:repeating-radial-gradient(ellipse at 100% 0%,transparent 0 22px,#b99b7030 23px 24px,transparent 25px 42px);
+
+ mask-image:linear-gradient(120deg,transparent 15%,#000 100%)
+
+}
+
+a{color:inherit;text-decoration:none}
+
+button,input,select,textarea{font:inherit}
+
+button{cursor:pointer}
+
+img{display:block;max-width:100%}
+
+::selection{background:var(--red);color:white}
+
+.progress{position:fixed;z-index:1000;left:0;top:0;height:2px;width:0;background:linear-gradient(90deg,var(--red),#e9b4c2);box-shadow:0 0 12px #c13b5d}
+
+header{
+
+ position:sticky;top:0;z-index:100;display:flex;align-items:center;
+
+ justify-content:space-between;gap:18px;padding:17px 6%;
+
+ background:#0b090be8;backdrop-filter:blur(18px);
+
+ border-bottom:1px solid transparent;transition:.35s var(--ease)
+
+}
+
+header.scrolled{border-color:var(--line);padding-top:12px;padding-bottom:12px}
+
+.logo{font-size:16px;font-weight:800;letter-spacing:.23em}
+
+.logo small{display:block;font-size:8px;font-weight:400;letter-spacing:.35em;color:var(--gold);margin-top:5px}
+
+nav{display:flex;align-items:center;gap:24px}
+
+nav a{font-size:10px;color:#bcb3b6;transition:color .25s}
+
+nav a:hover{color:white}
+
+.lang{background:#191417;border:1px solid #ffffff28;color:white;padding:10px 12px;cursor:pointer}
+
+.hero{
+
+ min-height:85vh;position:relative;display:grid;grid-template-columns:1fr 1fr;
+
+ align-items:center;gap:30px;padding:65px 7%;overflow:hidden;
+
+ background:radial-gradient(ellipse at 78% 38%,#70223b42,transparent 42%)
+
+}
+
+.hero:before,.hero:after{
+
+ content:"";position:absolute;right:-180px;top:-230px;width:570px;height:570px;
+
+ border:1px solid #b99b7030;border-radius:50%;pointer-events:none;
+
+ box-shadow:0 0 0 35px #b99b7008,0 0 0 75px #b99b7007,0 0 0 120px #b99b7005;
+
+ animation:orbit 65s linear infinite
+
+}
+
+.hero:after{width:370px;height:370px;right:-80px;top:-130px;animation-direction:reverse;animation-duration:45s}
+
+.kicker{color:var(--gold);font-size:9px;letter-spacing:.28em;text-transform:uppercase}
+
+h1{font-size:clamp(58px,9vw,122px);font-weight:400;letter-spacing:-.085em;line-height:.83;margin:24px 0}
+
+h1 span{display:block;color:var(--red2)}
+
+.ornament{color:var(--gold);opacity:.75;letter-spacing:.5em;margin:22px 0;font-size:11px}
+
+p{font-size:12px;line-height:1.9;color:#b9afb2}
+
+.hero-copy{position:relative;z-index:2;animation:rise 1s var(--ease) both}
+
+.hero-copy p{max-width:390px}
+
+.hero-art{position:relative;z-index:1;min-height:380px;display:grid;place-items:center}
+
+.hero-art img{width:100%;max-height:610px;object-fit:contain;filter:drop-shadow(0 28px 38px #000b);animation:float 7s ease-in-out infinite}
+
+.buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:25px}
+
+.btn{
+
+ display:inline-flex;align-items:center;justify-content:center;gap:12px;
+
+ min-height:47px;padding:14px 18px;border:1px solid #625058;
+
+ background:linear-gradient(135deg,#292126,#141114);color:white;
+
+ font-size:9px;letter-spacing:.1em;text-transform:uppercase;
+
+ transition:transform .3s var(--ease),box-shadow .3s,filter .3s,border-color .3s;
+
+ position:relative;overflow:hidden
+
+}
+
+.btn:before{content:"";position:absolute;top:-80%;bottom:-80%;left:-50%;width:30%;transform:skewX(-22deg);background:#ffffff24;transition:left .7s}
+
+.btn:hover:before{left:140%}
+
+.btn:hover{transform:translateY(-3px);box-shadow:0 12px 30px #0008;filter:brightness(1.12)}
+
+.btn:active{transform:scale(.97)}
+
+.btn.red{background:linear-gradient(120deg,#74172f,#b72d50);border-color:#d34d70}
+
+.btn.green{background:linear-gradient(120deg,#105e37,#1d9956);border-color:#49c17a}
+
+.btn.blue{background:linear-gradient(120deg,#164b72,#2788c8);border-color:#59b2ec}
+
+section{padding:95px 7%;position:relative}
+
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:34px}
+
+h2{font-size:clamp(36px,5.8vw,74px);font-weight:400;letter-spacing:-.07em;line-height:.95;margin:12px 0}
+
+.section-head p{max-width:310px}
+
+.products{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+
+.product{
+
+ position:relative;background:linear-gradient(145deg,#1a1518,#100e10);
+
+ border:1px solid #ffffff14;overflow:hidden;transition:transform .45s var(--ease),border-color .4s,box-shadow .4s
+
+}
+
+.product:hover{transform:translateY(-7px);border-color:#98415a;box-shadow:0 22px 45px #0006}
+
+.product-photo{height:350px;overflow:hidden;background:#151214;position:relative}
+
+.product-photo:after{content:"";position:absolute;inset:40% 0 0;background:linear-gradient(transparent,#0008);pointer-events:none}
+
+.product-photo img{width:100%;height:100%;object-fit:cover;transition:transform 1s var(--ease),filter .5s}
+
+.product:hover .product-photo img{transform:scale(1.055);filter:brightness(1.08)}
+
+.product-body{padding:20px}
+
+.product h3{font-weight:500;font-size:15px;margin:0 0 8px}
+
+.product p{font-size:11px;min-height:38px}
+
+.price{font-size:20px;letter-spacing:-.03em;margin:17px 0;color:#f1d9e0}
+
+.price small{font-size:10px;color:#a99da1}
+
+.product .btn{width:100%}
+
+.badge{position:absolute;z-index:2;top:13px;left:13px;padding:8px 10px;background:#0b090bd9;border:1px solid #ffffff2c;font-size:8px;letter-spacing:.14em}
+
+.story{display:grid;grid-template-columns:.85fr 1.15fr;gap:7%;align-items:center;background:radial-gradient(ellipse at 75% 45%,#53182c38,transparent 45%)}
+
+.story-image{height:570px;overflow:hidden;border:1px solid #ffffff17;background:#151114}
+
+.story-image img{width:100%;height:100%;object-fit:cover;transition:transform 1.1s var(--ease)}
+
+.story-image:hover img{transform:scale(1.035)}
+
+.specs{border-top:1px solid var(--line);margin-top:25px}
+
+.spec{display:flex;justify-content:space-between;gap:15px;border-bottom:1px solid var(--line);padding:14px 0;font-size:11px;color:#c7bdc0}
+
+.spec span:last-child{color:var(--gold);text-align:right}
+
+.order{background:linear-gradient(145deg,#181115,#0d0b0d 58%,#1d1016);border-top:1px solid #ffffff16;border-bottom:1px solid #ffffff16}
+
+.order-layout{display:grid;grid-template-columns:1fr .8fr;gap:45px;align-items:start}
+
+form{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+
+.field{display:flex;flex-direction:column;gap:8px}
+
+.full{grid-column:1/-1}
+
+label{font-size:10px;color:#d0c3c7;letter-spacing:.04em}
+
+input,select,textarea{width:100%;padding:14px;background:#0c0a0c;color:white;border:1px solid #48343c;border-radius:0;outline:none;transition:border-color .25s,box-shadow .25s}
+
+input:focus,select:focus,textarea:focus{border-color:#ba4968;box-shadow:0 0 0 3px #a62a471c}
+
+textarea{min-height:80px;resize:vertical}
+
+input[type=file]{font-size:11px}
+
+.qr-card{background:#f8f6f3;color:#111;padding:22px;max-width:370px;margin:0 auto;box-shadow:0 20px 50px #0005}
+
+.qr-card h3{font-size:19px;margin:0 0 8px}
+
+.qr-card p{color:#454044;font-size:11px}
+
+.qr-card img{width:100%;height:auto;max-height:none;object-fit:contain}
+
+.note{font-size:10px;color:#a89da1;line-height:1.8}
+
+.total{font-size:21px;color:#f2d6de}
+
+.total span{font-size:11px;color:#b9adb1}
+
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s var(--ease)}
+
+.reveal.visible{opacity:1;transform:translateY(0)}
+
+footer{padding:32px 7%;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;border-top:1px solid var(--line);color:#9f9699;font-size:10px}
+
+.toast{display:none;position:fixed;z-index:200;bottom:20px;left:50%;transform:translateX(-50%);background:#20181c;border:1px solid #875063;padding:15px 18px;max-width:90vw;font-size:12px;box-shadow:0 10px 40px #0009}
+
+.toast.show{display:block;animation:rise .3s ease}
+
+@keyframes rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+
+@keyframes orbit{to{transform:rotate(360deg)}}
+
+@media(max-width:800px){
+
+ header{padding:14px 5%;flex-wrap:wrap;gap:12px}
+
+ nav{order:3;width:100%;justify-content:space-between;gap:8px}
+
+ nav a{font-size:9px}
+
+ .hero{grid-template-columns:1fr;padding:45px 6% 55px;gap:5px}
+
+ .hero-art{grid-row:1;min-height:280px}
+
+ .hero-art img{max-height:390px}
+
+ .hero-copy{grid-row:2}
+
+ section{padding:65px 6%}
+
+ .products{grid-template-columns:1fr 1fr;gap:11px}
+
+ .product-photo{height:250px}
+
+ .product-body{padding:13px}
+
+ .product h3{font-size:14px}
+
+ .story,.order-layout{grid-template-columns:1fr;gap:30px}
+
+ .story-image{height:420px}
+
+ .section-head{display:block}
+
+}
+
+@media(max-width:430px){
+
+ .products{grid-template-columns:1fr}
+
+ .product-photo{height:350px}
+
+ form{grid-template-columns:1fr}
+
+ .full{grid-column:auto}
+
+ h1{font-size:clamp(58px,17vw,85px)}
+
+ .qr-card{padding:15px}
+
+}
+
+@media(prefers-reduced-motion:reduce){
+
+ *,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}
+
+ .reveal{opacity:1;transform:none}
+
+}
+
 </style>
+
 </head>
+
 <body>
-<div class="topline" id="topline"></div><div class="grain"></div>
-<header id="header"><a class="brand" href="#home">PROKHATSKY<small>MAKE IT YOURS</small></a><nav class="nav" id="nav"><a href="#collection" data-i="navCollection">Коллекция</a><a href="#story" data-i="navStory">О бренде</a><a href="#details" data-i="navDetails">Детали</a><a href="#faq" data-i="navFaq">Вопросы</a></nav><div class="tools"><select class="lang" id="language" aria-label="Язык"><option value="ru">RU</option><option value="ky">KG</option><option value="en">EN</option></select><button class="menu" id="menuBtn" aria-label="Открыть меню">☰</button></div></header>
+
+<div class="progress" id="progress"></div>
+
+<header id="header">
+
+<a href="#home" class="logo">PROKHATSKY<small>COLLECTION 01 · BLACK / RED CORE</small></a>
+
+<nav>
+
+<a href="#collection" data-t="navCollection">Коллекция</a>
+
+<a href="#story" data-t="navStory">О бренде</a>
+
+<a href="#order" data-t="navOrder">Заказ</a>
+
+</nav>
+
+<select class="lang" id="lang" aria-label="Язык" onchange="setLanguage(this.value)">
+
+<option value="ru">RU</option><option value="ky">KY</option><option value="en">EN</option>
+
+</select>
+
+</header>
+
 <main>
-<section class="hero" id="home"><div class="hero-art"><img src="images/hero.jpg" alt="Коллекция PROKHATSKY Black Red Core"></div><div class="hero-copy"><div class="eyebrow" data-i="eyebrow">COLLECTION 01 / BLACK · RED CORE</div><h1>PROKHA<span>TSKY.</span></h1><p class="lead" data-i="heroLead">Не просто одежда. Своя форма, свой характер и детали, которые замечают.</p><div class="actions"><a class="btn primary" href="#collection"><span data-i="chooseProduct">Выбрать изделие</span><b>↗</b></a><a class="btn" href="#story"><span data-i="explore">Исследовать дроп</span><b>↓</b></a></div></div><div class="vertical" data-i="vertical">СОЗДАНО, ЧТОБЫ ВЫДЕЛЯТЬСЯ</div><div class="hero-foot"><span>MADE TO BE YOURS</span><span>BLACK / RED CORE</span></div></section>
-<section class="collection" id="collection"><div class="section-head reveal"><div><div class="eyebrow" data-i="drop">ПЕРВЫЙ ДРОП</div><h2 data-i="collectionTitle">Коллекция<br>с характером.</h2></div><p class="muted" data-i="collectionText">Три позиции. Продуманные материалы, силуэт oversize и фирменные бордовые акценты.</p></div><div class="grid"><a class="tile large reveal" href="#products"><img src="images/lookbook.jpg" alt="Коллекция Black Red Core"><div class="tile-caption"><div><strong>Black / Red Core</strong><small data-i="setDesc">КОМПЛЕКТ · ХУДИ + БРЮКИ</small></div><span class="round">↗</span></div></a><a class="tile reveal" href="#products"><img src="images/front.jpg" alt="Худи PROKHATSKY"><div class="tile-caption"><div><strong data-i="hoodieName">Худи на молнии</strong><small>ZIP HOODIE · OVERSIZED</small></div><span class="round">↗</span></div></a><a class="tile reveal" href="#products"><img src="images/pants.jpg" alt="Брюки PROKHATSKY"><div class="tile-caption"><div><strong data-i="pantsName">Брюки</strong><small>WIDE FIT · BLACK / RED</small></div><span class="round">↗</span></div></a></div></section>
-<section class="story" id="story"><div class="story-grid"><div class="story-copy reveal"><div class="eyebrow" data-i="storyEyebrow">ИДЕЯ БРЕНДА</div><h2 data-i="storyTitle">Сдержанный<br>снаружи.<br><span style="color:#bd3155">Сильный</span> в деталях.</h2><p data-i="storyText">PROKHATSKY — уличная одежда для тех, кто выбирает собственный стиль. Чёрная база, глубокий бордовый оттенок и детали, которые не требуют лишних слов.</p><div class="specs"><div class="spec"><span data-i="specFit">Посадка</span><span>OVERSIZED</span></div><div class="spec"><span data-i="specColor">Палитра</span><span>BLACK / BURGUNDY</span></div><div class="spec"><span data-i="specEdition">Коллекция</span><span>01 / LIMITED DROP</span></div></div></div><div class="story-image reveal"><img src="images/back.jpg" alt="Деталь спинки худи PROKHATSKY"></div></div></section>
-<section class="viewer" id="viewer"><div class="section-head reveal"><div><div class="eyebrow" data-i="viewerEyebrow">ПОСМОТРИ БЛИЖЕ</div><h2 data-i="viewerTitle">Внимание<br>к деталям.</h2></div><p class="muted" data-i="viewerText">Листай изображения изделия. На телефоне можно провести пальцем по фотографии.</p></div><div class="viewer-grid reveal"><div class="viewer-stage" id="viewerStage"><img id="viewerImage" src="images/front.jpg" alt="Худи спереди"><span class="viewer-badge">01 / 04</span><span class="viewer-label" data-i="swipeHint">СВАЙП ДЛЯ ПРОСМОТРА</span></div><aside class="viewer-side"><div class="eyebrow" data-i="limited">COLLECTION 01</div><h3 data-i="hoodieName">Худи на молнии</h3><p class="muted" data-i="viewerProductText">Оверсайз-силуэт · чёрный цвет · фирменная деталь на спине.</p><div class="price">6 400 <small>сом</small></div><div class="eyebrow" data-i="chooseSize">ВЫБЕРИ РАЗМЕР</div><div class="size-row" id="viewerSizes"><button class="size" data-size="S">S</button><button class="size active" data-size="M">M</button><button class="size" data-size="L">L</button><button class="size" data-size="XL">XL</button></div><button class="btn primary" id="buyHoodie"><span data-i="buyNow">Купить изделие</span><b>↗</b></button><button class="btn" id="addSet"><span data-i="buySet">Выбрать комплект</span><b>＋</b></button></aside></div></section>
-<section class="products" id="products"><div class="section-head reveal"><div><div class="eyebrow" data-i="catalog">КАТАЛОГ</div><h2 data-i="productsTitle">Выбери свой<br>комплект.</h2></div><p class="muted" data-i="productsText">Выбери размер и оформи заказ. Доставка рассчитывается отдельно.</p></div><div class="product-grid"><article class="product reveal"><div class="product-photo"><img src="images/lookbook.jpg" alt="Комплект Black Red Core"></div><div class="product-info"><h3>Black / Red Core</h3><p data-i="setDesc">КОМПЛЕКТ · ХУДИ + БРЮКИ</p><div class="product-bottom"><strong>10 800 сом</strong><button class="mini" data-buy="set" data-i="choose">ВЫБРАТЬ</button></div></div></article><article class="product reveal"><div class="product-photo"><img src="images/front.jpg" alt="Худи на молнии"></div><div class="product-info"><h3 data-i="hoodieName">Худи на молнии</h3><p>ZIP HOODIE · OVERSIZED</p><div class="product-bottom"><strong>6 400 сом</strong><button class="mini" data-buy="hoodie" data-i="choose">ВЫБРАТЬ</button></div></div></article><article class="product reveal"><div class="product-photo"><img src="images/pants.jpg" alt="Брюки"></div><div class="product-info"><h3 data-i="pantsName">Брюки</h3><p>WIDE FIT · BLACK / RED</p><div class="product-bottom"><strong>4 999 сом</strong><button class="mini" data-buy="pants" data-i="choose">ВЫБРАТЬ</button></div></div></article></div></section>
-<section class="details" id="details"><div class="section-head reveal"><div><div class="eyebrow" data-i="detailsEyebrow">МАЛЕНЬКИЕ ДЕТАЛИ. СВОЙ ХАРАКТЕР.</div><h2 data-i="detailsTitle">Не случайно<br>ни одной детали.</h2></div><p class="muted" data-i="detailsText">Фактура ткани, фирменная вышивка, упаковка и акценты коллекции.</p></div><div class="details-grid"><div class="detail reveal"><img src="images/hood-detail.jpg" alt="Капюшон"><span data-i="detailHood">Форма капюшона</span></div><div class="detail reveal"><img src="images/zipper-details.jpg" alt="Молния"><span data-i="detailZip">Молния и фурнитура</span></div><div class="detail reveal"><img src="images/tunduk.jpg" alt="Фирменная деталь"><span data-i="detailBack">Фирменная деталь на спине</span></div><div class="detail reveal"><img src="images/box.jpg" alt="Упаковка"><span data-i="detailPack">Упаковка бренда</span></div></div></section>
-<section id="faq"><div class="section-head reveal"><div><div class="eyebrow" data-i="faqEyebrow">ПЕРЕД ЗАКАЗОМ</div><h2 data-i="faqTitle">Частые<br>вопросы.</h2></div></div><div class="faq reveal"><details><summary data-i="faq1q">Как оплатить заказ?</summary><p data-i="faq1a">После заполнения формы откроется QR-код MBank / ELQR. После перевода приложи чек в форме и отправь заказ в Telegram. Сайт не проверяет поступление денег автоматически.</p></details><details><summary data-i="faq2q">Как работает доставка?</summary><p data-i="faq2a">По Кыргызстану доставка согласуется при подтверждении заказа. Международная доставка оплачивается отдельно и рассчитывается индивидуально.</p></details><details><summary data-i="faq3q">Как подтвердить оплату?</summary><p data-i="faq3a">Прикрепи скриншот или файл чека в форме оплаты. При отправке заказа в Telegram сообщение откроется с данными заказа; файл нужно приложить в Telegram вручную, если браузер не передаст вложение автоматически.</p></details></div></section>
-</main><footer class="footer"><span><b>PROKHATSKY</b> · COLLECTION 01</span><span data-i="footerText">Сделано, чтобы быть собой.</span><a href="https://t.me/prokhatskii" target="_blank" rel="noopener">TELEGRAM ↗</a></footer>
-<!-- Checkout form -->
-<div class="modal" id="checkoutModal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle"><div class="sheet"><div class="sheet-head"><div><div class="eyebrow" data-i="orderStep">ШАГ 1 / ДАННЫЕ ЗАКАЗА</div><h2 id="checkoutTitle" data-i="checkoutTitle">Оформление заказа</h2></div><button class="close" data-close="checkoutModal" aria-label="Закрыть">✕</button></div><form id="orderForm"><div class="form-grid"><div class="field"><label for="firstName" data-i="firstName">Имя</label><input id="firstName" name="firstName" autocomplete="given-name" required></div><div class="field"><label for="lastName" data-i="lastName">Фамилия</label><input id="lastName" name="lastName" autocomplete="family-name" required></div><div class="field"><label for="phone" data-i="phone">Номер телефона</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+996 ..." required></div><div class="field"><label for="email" data-i="email">Электронная почта</label><input id="email" name="email" type="email" autocomplete="email" required></div><div class="field"><label for="product" data-i="product">Изделие</label><select id="product" name="product"><option value="set" data-i="optSet">Комплект — 10 800 сом</option><option value="hoodie" data-i="optHoodie">Худи — 6 400 сом</option><option value="pants" data-i="optPants">Брюки — 4 999 сом</option></select></div><div class="field"><label for="size" data-i="size">Размер</label><select id="size" name="size" required><option value="S">S</option><option value="M" selected>M</option><option value="L">L</option><option value="XL">XL</option></select></div><div class="field full"><label data-i="delivery">Доставка</label><div class="radio-line"><label><input type="radio" name="delivery" value="kg" checked> <span data-i="deliveryKg">По Кыргызстану</span></label><label><input type="radio" name="delivery" value="intl"> <span data-i="deliveryIntl">За границу (платно)</span></label></div></div><div class="field full" id="kgAddressWrap"><label for="kgAddress" data-i="kgAddress">Город, улица, дом / адрес доставки</label><textarea id="kgAddress" name="kgAddress" placeholder="Бишкек, улица, дом, квартира"></textarea></div><div class="field full hidden" id="intlAddressWrap"><label for="intlAddress" data-i="intlAddress">Страна, город и полный адрес</label><textarea id="intlAddress" name="intlAddress"></textarea></div><div class="field full"><label for="comment" data-i="comment">Комментарий к заказу (необязательно)</label><textarea id="comment" name="comment"></textarea></div></div><div class="summary" id="orderSummary"></div><label class="checkline"><input type="checkbox" id="consent" required><span data-i="consent">Подтверждаю, что данные верны, и согласен связаться для уточнения доставки.</span></label><button class="btn primary" type="submit" style="width:100%"><span data-i="continuePayment">Перейти к оплате</span><b>→</b></button></form></div></div>
-<!-- Payment screen -->
-<div class="modal" id="paymentModal" role="dialog" aria-modal="true" aria-labelledby="paymentTitle"><div class="sheet"><div class="sheet-head"><div><div class="eyebrow" data-i="orderStep2">ШАГ 2 / ОПЛАТА</div><h2 id="paymentTitle" data-i="paymentTitle">Оплата по QR-коду</h2></div><button class="close" data-close="paymentModal" aria-label="Закрыть">✕</button></div><p class="muted" id="paymentOrderLine"></p><div class="eyebrow" style="text-align:center;margin-top:18px" data-i="timeForPayment">ВРЕМЯ НА ОПЛАТУ</div><div class="pay-timer" id="timer">15:00</div><div class="qr-wrap"><img src="images/payment-qr.jpg" alt="Полный QR-код MBank / ELQR для оплаты" id="qrImage"></div><p class="pay-note" data-i="paymentInstructions">Открой приложение банка и отсканируй QR-код целиком. После перевода прикрепи чек ниже. Сайт не подтверждает поступление денег автоматически.</p><div class="field upload"><label for="receipt" data-i="receiptLabel">Прикрепить чек оплаты</label><input id="receipt" type="file" accept="image/*,.pdf"><div class="file-name" id="fileName" data-i="noFile">Файл не выбран</div><p class="tiny" data-i="receiptHint">Чек останется на твоём устройстве. Браузер не может автоматически вложить его в сообщение Telegram во всех случаях — при необходимости приложи его в Telegram вручную.</p></div><div class="summary" id="paymentSummary"></div><button class="btn primary" id="sendTelegram" style="width:100%"><span data-i="sendTelegram">Отправить заказ в Telegram</span><b>↗</b></button><button class="btn" id="copyOrder" style="width:100%;margin-top:9px"><span data-i="copyOrder">Скопировать данные заказа</span><b>▣</b></button><p class="tiny" data-i="timerNote">Таймер — только напоминание в браузере. Он не отменяет перевод и не подтверждает оплату.</p></div></div>
+
+<section class="hero" id="home">
+
+<div class="hero-copy">
+
+<div class="kicker" data-t="eyebrow">Первый дроп · Бишкек</div>
+
+<h1>BLACK<span>/ RED CORE</span></h1>
+
+<div class="ornament">◇ ━ ❖ ━ ◇</div>
+
+<p data-t="heroText">Уличная одежда с характером. Чистый силуэт, внимание к деталям и тонкие отсылки к кыргызскому наследию.</p>
+
+<div class="buttons">
+
+<a class="btn red" href="#collection" data-t="viewCollection">Смотреть коллекцию ↗</a>
+
+<a class="btn" href="#order" data-t="orderNow">Оформить заказ</a>
+
+</div>
+
+</div>
+
+<div class="hero-art">
+
+<img src="images/hero.jpg" alt="Коллекция PROKHATSKY" onerror="this.onerror=null;this.src='images/front.jpg'">
+
+</div>
+
+</section>
+
+<section id="collection">
+
+<div class="section-head reveal">
+
+<div><div class="kicker">COLLECTION 01</div><h2 data-t="collectionTitle">Первый дроп</h2></div>
+
+<p data-t="collectionDesc">Чёрный силуэт. Глубокий бордовый акцент. Ничего лишнего.</p>
+
+</div>
+
+<div class="products">
+
+<article class="product reveal">
+
+<div class="product-photo"><span class="badge">01 / HOODIE</span><img src="images/front.jpg" alt="Худи PROKHATSKY"></div>
+
+<div class="product-body"><h3 data-t="hoodie">Худи на молнии</h3><p data-t="hoodieDesc">Оверсайз · плотная ткань · вышитая буква P</p><div class="price">6 400 <small>сом</small></div><button class="btn red" onclick="selectProduct('hoodie')" data-t="choose">Выбрать товар ↗</button></div>
+
+</article>
+
+<article class="product reveal">
+
+<div class="product-photo"><span class="badge">02 / PANTS</span><img src="images/pants.jpg" alt="Брюки PROKHATSKY"></div>
+
+<div class="product-body"><h3 data-t="pants">Брюки</h3><p data-t="pantsDesc">Свободный силуэт · детали коллекции</p><div class="price">4 999 <small>сом</small></div><button class="btn red" onclick="selectProduct('pants')" data-t="choose">Выбрать товар ↗</button></div>
+
+</article>
+
+<article class="product reveal">
+
+<div class="product-photo"><span class="badge">03 / SET</span><img src="images/lookbook.jpg" alt="Комплект PROKHATSKY" onerror="this.onerror=null;this.src='images/hood.jpg'"></div>
+
+<div class="product-body"><h3 data-t="set">Комплект</h3><p data-t="setDesc">Худи и брюки из Collection 01</p><div class="price">10 800 <small>сом</small></div><button class="btn red" onclick="selectProduct('set')" data-t="choose">Выбрать товар ↗</button></div>
+
+</article>
+
+</div>
+
+</section>
+
+<section class="story" id="story">
+
+<div class="reveal">
+
+<div class="kicker" data-t="philosophy">Философия бренда</div>
+
+<h2 data-t="storyTitle">Своё. Честное. Надолго.</h2>
+
+<div class="ornament">◇ ❖ ◇ ❖ ◇</div>
+
+<p data-t="storyText">PROKHATSKY объединяет современный streetwear и тонкие мотивы кыргызского наследия. Орнамент — часть истории, которую мы несём дальше.</p>
+
+<div class="specs">
+
+<div class="spec"><span data-t="material">Материал</span><span data-t="materialValue">Трёхнитка с начёсом</span></div>
+
+<div class="spec"><span data-t="fit">Посадка</span><span data-t="fitValue">Oversized / свободная</span></div>
+
+<div class="spec"><span data-t="details">Детали</span><span data-t="detailsValue">Вышивка · түндүк · атлас</span></div>
+
+</div>
+
+</div>
+
+<div class="story-image reveal"><img src="images/tunduk.jpg" alt="Детали PROKHATSKY" onerror="this.onerror=null;this.src='images/back.jpg'"></div>
+
+</section>
+
+<section class="order" id="order">
+
+<div class="section-head reveal">
+
+<div><div class="kicker" data-t="orderKicker">Твой заказ</div><h2 data-t="orderTitle">Оформление заказа</h2></div>
+
+<p data-t="orderDesc">Заполни данные, выбери доставку и перейди к оплате.</p>
+
+</div>
+
+<div class="order-layout">
+
+<form id="orderForm">
+
+<div class="field full"><label for="product" data-t="productLabel">Товар</label>
+
+<select id="product" name="product" onchange="updateTotal()">
+
+<option value="set">Комплект — 10 800 сом</option>
+
+<option value="hoodie">Худи — 6 400 сом</option>
+
+<option value="pants">Брюки — 4 999 сом</option>
+
+</select></div>
+
+<div class="field"><label for="size" data-t="sizeLabel">Размер</label><select id="size" name="size"><option>S</option><option>M</option><option>L</option><option>XL</option></select></div>
+
+<div class="field"><label for="qty" data-t="qtyLabel">Количество</label><select id="qty" name="qty" onchange="updateTotal()"><option>1</option><option>2</option><option>3</option></select></div>
+
+<div class="field"><label for="first" data-t="firstLabel">Имя</label><input id="first" name="first" autocomplete="given-name" required></div>
+
+<div class="field"><label for="last" data-t="lastLabel">Фамилия</label><input id="last" name="last" autocomplete="family-name" required></div>
+
+<div class="field"><label for="phone" data-t="phoneLabel">Телефон</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+996" required></div>
+
+<div class="field"><label for="email" data-t="emailLabel">Электронная почта</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+
+<div class="field full"><label for="delivery" data-t="deliveryLabel">Доставка</label><select id="delivery" name="delivery"><option value="kg">По Кыргызстану</option><option value="world">За границу — доставка платная</option></select></div>
+
+<div class="field full"><label for="address" data-t="addressLabel">Город и полный адрес</label><textarea id="address" name="address" required></textarea></div>
+
+<div class="field full"><label for="comment" data-t="commentLabel">Комментарий (необязательно)</label><textarea id="comment" name="comment"></textarea></div>
+
+<div class="field full"><label for="receipt" data-t="receiptLabel">Чек оплаты (изображение или PDF)</label><input id="receipt" name="receipt" type="file" accept="image/*,.pdf"></div>
+
+<div class="field full"><div class="total"><span data-t="totalLabel">Итого за товары:</span> <strong id="total">10 800 сом</strong></div><p class="note" data-t="shippingNote">Международная доставка рассчитывается отдельно.</p></div>
+
+<div class="field full"><button class="btn green" type="submit" data-t="payButton">Перейти к оплате ↗</button></div>
+
+</form>
+
+<div class="reveal">
+
+<div class="qr-card">
+
+<h3 data-t="qrTitle">Оплата через QR</h3>
+
+<p data-t="qrDesc">Открой банковское приложение и отсканируй QR-код.</p>
+
+<img src="images/payment-qr.jpg" alt="Полный QR-код оплаты">
+
+<p data-t="qrNote">Перед оплатой проверь получателя и сумму.</p>
+
+</div>
+
+<div class="buttons" style="justify-content:center">
+
+<a class="btn blue" href="https://t.me/prokhatskii" target="_blank" rel="noopener" data-t="telegramButton">Открыть Telegram ↗</a>
+
+</div>
+
+<p class="note" data-t="receiptNote">После оплаты открой Telegram, отправь данные заказа и прикрепи чек вручную. Сайт не отправляет чек автоматически.</p>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<footer><span class="logo">PROKHATSKY</span><span>COLLECTION 01 · BLACK / RED CORE</span><a href="https://t.me/prokhatskii" target="_blank" rel="noopener">Telegram ↗</a></footer>
+
+<div class="toast" id="toast"></div>
+
 <script>
-const T={ru:{navCollection:'Коллекция',navStory:'О бренде',navDetails:'Детали',navFaq:'Вопросы',eyebrow:'COLLECTION 01 / BLACK · RED CORE',heroLead:'Не просто одежда. Своя форма, свой характер и детали, которые замечают.',chooseProduct:'Выбрать изделие',explore:'Исследовать дроп',vertical:'СОЗДАНО, ЧТОБЫ ВЫДЕЛЯТЬСЯ',drop:'ПЕРВЫЙ ДРОП',collectionTitle:'Коллекция<br>с характером.',collectionText:'Три позиции. Продуманные материалы, силуэт oversize и фирменные бордовые акценты.',setDesc:'КОМПЛЕКТ · ХУДИ + БРЮКИ',hoodieName:'Худи на молнии',pantsName:'Брюки',storyEyebrow:'ИДЕЯ БРЕНДА',storyTitle:'Сдержанный<br>снаружи.<br><span style="color:#bd3155">Сильный</span> в деталях.',storyText:'PROKHATSKY — уличная одежда для тех, кто выбирает собственный стиль. Чёрная база, глубокий бордовый оттенок и детали, которые не требуют лишних слов.',specFit:'Посадка',specColor:'Палитра',specEdition:'Коллекция',viewerEyebrow:'ПОСМОТРИ БЛИЖЕ',viewerTitle:'Внимание<br>к деталям.',viewerText:'Листай изображения изделия. На телефоне можно провести пальцем по фотографии.',swipeHint:'СВАЙП ДЛЯ ПРОСМОТРА',limited:'COLLECTION 01',viewerProductText:'Оверсайз-силуэт · чёрный цвет · фирменная деталь на спине.',chooseSize:'ВЫБЕРИ РАЗМЕР',buyNow:'Купить изделие',buySet:'Выбрать комплект',catalog:'КАТАЛОГ',productsTitle:'Выбери свой<br>комплект.',productsText:'Выбери размер и оформи заказ. Доставка рассчитывается отдельно.',choose:'ВЫБРАТЬ',detailsEyebrow:'МАЛЕНЬКИЕ ДЕТАЛИ. СВОЙ ХАРАКТЕР.',detailsTitle:'Не случайно<br>ни одной детали.',detailsText:'Фактура ткани, фирменная вышивка, упаковка и акценты коллекции.',detailHood:'Форма капюшона',detailZip:'Молния и фурнитура',detailBack:'Фирменная деталь на спине',detailPack:'Упаковка бренда',faqEyebrow:'ПЕРЕД ЗАКАЗОМ',faqTitle:'Частые<br>вопросы.',faq1q:'Как оплатить заказ?',faq1a:'После заполнения формы откроется QR-код MBank / ELQR. После перевода приложи чек в форме и отправь заказ в Telegram. Сайт не проверяет поступление денег автоматически.',faq2q:'Как работает доставка?',faq2a:'По Кыргызстану доставка согласуется при подтверждении заказа. Международная доставка оплачивается отдельно и рассчитывается индивидуально.',faq3q:'Как подтвердить оплату?',faq3a:'Прикрепи скриншот или файл чека в форме оплаты. При отправке заказа в Telegram сообщение откроется с данными заказа; файл нужно приложить в Telegram вручную, если браузер не передаст вложение автоматически.',footerText:'Сделано, чтобы быть собой.',orderStep:'ШАГ 1 / ДАННЫЕ ЗАКАЗА',checkoutTitle:'Оформление заказа',firstName:'Имя',lastName:'Фамилия',phone:'Номер телефона',email:'Электронная почта',product:'Изделие',optSet:'Комплект — 10 800 сом',optHoodie:'Худи — 6 400 сом',optPants:'Брюки — 4 999 сом',size:'Размер',delivery:'Доставка',deliveryKg:'По Кыргызстану',deliveryIntl:'За границу (платно)',kgAddress:'Город, улица, дом / адрес доставки',intlAddress:'Страна, город и полный адрес',comment:'Комментарий к заказу (необязательно)',consent:'Подтверждаю, что данные верны, и согласен связаться для уточнения доставки.',continuePayment:'Перейти к оплате',orderStep2:'ШАГ 2 / ОПЛАТА',paymentTitle:'Оплата по QR-коду',timeForPayment:'ВРЕМЯ НА ОПЛАТУ',paymentInstructions:'Открой приложение банка и отсканируй QR-код целиком. После перевода прикрепи чек ниже. Сайт не подтверждает поступление денег автоматически.',receiptLabel:'Прикрепить чек оплаты',noFile:'Файл не выбран',receiptHint:'Чек останется на твоём устройстве. Браузер не может автоматически вложить его в сообщение Telegram во всех случаях — при необходимости приложи его в Telegram вручную.',sendTelegram:'Отправить заказ в Telegram',copyOrder:'Скопировать данные заказа',timerNote:'Таймер — только напоминание в браузере. Он не отменяет перевод и не подтверждает оплату.',kg:'Кыргызстан',intl:'Международная доставка',deliveryFee:'Доставка оплачивается отдельно',total:'Сумма заказа',receiptChosen:'Выбран файл: ',missingAddress:'Заполни адрес доставки.',copied:'Данные заказа скопированы.',copyFail:'Не удалось скопировать. Выдели данные вручную.',receiptBefore:'Прикрепи чек, если уже оплатил, затем отправь заказ в Telegram. В Telegram также можно приложить файл чека.',sizeRequired:'Выбери размер.'},ky:{navCollection:'Коллекция',navStory:'Бренд жөнүндө',navDetails:'Деталдар',navFaq:'Суроолор',eyebrow:'COLLECTION 01 / BLACK · RED CORE',heroLead:'Жөн гана кийим эмес. Өз формасы, өз мүнөзү жана байкалуучу деталдары.',chooseProduct:'Буюм тандоо',explore:'Коллекцияны көрүү',vertical:'ӨЗГӨЧӨ БОЛУУ ҮЧҮН ЖАРАЛГАН',drop:'БИРИНЧИ ДРОП',collectionTitle:'Мүнөзү бар<br>коллекция.',collectionText:'Үч модель. Сапаттуу материалдар, oversize форма жана бордо түстөгү акценттер.',setDesc:'ТОПТОМ · ХУДИ + ШТАНЫ',hoodieName:'Сыдырмалуу худи',pantsName:'Штаны',storyEyebrow:'БРЕНДДИН ИДЕЯСЫ',storyTitle:'Сыртынан<br>жөнөкөй.<br><span style="color:#bd3155">Деталда</span> күчтүү.',storyText:'PROKHATSKY — өз стилин тандаган адамдар үчүн көчө кийими. Кара негиз, терең бордо түсү жана өзгөчө деталдар.',specFit:'Кесилиши',specColor:'Түстөр',specEdition:'Коллекция',viewerEyebrow:'ЖАКЫНЫРААК КАРА',viewerTitle:'Деталдарга<br>көңүл буруу.',viewerText:'Буюмдун сүрөттөрүн жылдыр. Телефондо сүрөттү манжаң менен сүрсөң болот.',swipeHint:'КӨРҮҮ ҮЧҮН СҮР',limited:'COLLECTION 01',viewerProductText:'Oversize форма · кара түс · аркасындагы фирмалык деталь.',chooseSize:'ӨЛЧӨМ ТАНДА',buyNow:'Сатып алуу',buySet:'Топтом тандоо',catalog:'КАТАЛОГ',productsTitle:'Өзүңө ылайык<br>танда.',productsText:'Өлчөмдү тандап, заказ бер. Жеткирүү өзүнчө эсептелет.',choose:'ТАНДОО',detailsEyebrow:'МААНИЛҮҮ ДЕТАЛДАР',detailsTitle:'Ар бир детал<br>ойлонулган.',detailsText:'Кездеменин фактурасы, сайма, таңгак жана коллекциянын акценттери.',detailHood:'Капюшондун формасы',detailZip:'Сыдырма жана фурнитура',detailBack:'Аркасындагы фирмалык деталь',detailPack:'Бренд таңгактоосу',faqEyebrow:'ЗАКАЗДЫН АЛДЫНДА',faqTitle:'Көп берилген<br>суроолор.',faq1q:'Заказды кантип төлөйм?',faq1a:'Форманы толтургандан кийин MBank / ELQR QR-коду ачылат. Которгондон кийин чекти тиркеп, заказды Telegramга жөнөт. Сайт төлөмдү автоматтык текшербейт.',faq2q:'Жеткирүү кандай болот?',faq2a:'Кыргызстан ичинде жеткирүү заказ ырасталганда макулдашылат. Эл аралык жеткирүү өзүнчө төлөнөт.',faq3q:'Төлөмдү кантип ырастайм?',faq3a:'Төлөм чегинин сүрөтүн же файлын формага тирке. Telegramга өткөндө заказ маалыматы даяр болот; файл автоматтык кошулбаса, аны Telegramга өзүң тирке.',footerText:'Өзүң бойдон кал.',orderStep:'1-КАДАМ / ЗАКАЗ МААЛЫМАТЫ',checkoutTitle:'Заказ берүү',firstName:'Атың',lastName:'Фамилияң',phone:'Телефон номери',email:'Электрондук почта',product:'Буюм',optSet:'Топтом — 10 800 сом',optHoodie:'Худи — 6 400 сом',optPants:'Штаны — 4 999 сом',size:'Өлчөм',delivery:'Жеткирүү',deliveryKg:'Кыргызстан ичинде',deliveryIntl:'Чет өлкөгө (акы төлөнөт)',kgAddress:'Шаар, көчө, үй / жеткирүү дареги',intlAddress:'Өлкө, шаар жана толук дарек',comment:'Комментарий (милдеттүү эмес)',consent:'Маалымат туура экенин ырастайм жана жеткирүү боюнча байланышууга макулмун.',continuePayment:'Төлөөгө өтүү',orderStep2:'2-КАДАМ / ТӨЛӨМ',paymentTitle:'QR-код менен төлөө',timeForPayment:'ТӨЛӨӨ УБАКТЫСЫ',paymentInstructions:'Банк тиркемесин ачып, QR-кодду толугу менен сканерле. Которгондон кийин чекти тирке. Сайт төлөмдү автоматтык ырастабайт.',receiptLabel:'Төлөм чегин тиркөө',noFile:'Файл тандалган жок',receiptHint:'Чек түзмөгүңдө калат. Кээ бир браузерлер файлды Telegramга автоматтык тиркей албайт — керек болсо Telegramда өзүң тирке.',sendTelegram:'Заказды Telegramга жөнөтүү',copyOrder:'Заказ маалыматын көчүрүү',timerNote:'Таймер браузердеги эскертүү гана. Ал которууну жокко чыгарбайт жана төлөмдү ырастабайт.',kg:'Кыргызстан',intl:'Эл аралык жеткирүү',deliveryFee:'Жеткирүү өзүнчө төлөнөт',total:'Заказ суммасы',receiptChosen:'Тандалган файл: ',missingAddress:'Жеткирүү дарегин толтур.',copied:'Заказ маалыматы көчүрүлдү.',copyFail:'Көчүрүү мүмкүн болгон жок. Маалыматты кол менен көчүр.',receiptBefore:'Төлөгөн болсоң чекти тирке, андан кийин заказды Telegramга жөнөт. Чекти Telegramда да тиркөөгө болот.',sizeRequired:'Өлчөмдү танда.'},en:{navCollection:'Collection',navStory:'About',navDetails:'Details',navFaq:'FAQ',eyebrow:'COLLECTION 01 / BLACK · RED CORE',heroLead:'More than clothing. A distinct shape, a personal attitude, and details that get noticed.',chooseProduct:'Choose an item',explore:'Explore the drop',vertical:'MADE TO STAND OUT',drop:'FIRST DROP',collectionTitle:'A collection<br>with character.',collectionText:'Three pieces. Considered materials, an oversized silhouette, and signature burgundy accents.',setDesc:'SET · HOODIE + PANTS',hoodieName:'Zip-up hoodie',pantsName:'Pants',storyEyebrow:'THE BRAND IDEA',storyTitle:'Quiet<br>on the outside.<br><span style="color:#bd3155">Strong</span> in detail.',storyText:'PROKHATSKY is streetwear for people who choose their own style. A black base, deep burgundy, and details that need no explanation.',specFit:'Fit',specColor:'Palette',specEdition:'Collection',viewerEyebrow:'TAKE A CLOSER LOOK',viewerTitle:'Attention<br>to detail.',viewerText:'Swipe through product images. On mobile, drag your finger across the photo.',swipeHint:'SWIPE TO EXPLORE',limited:'COLLECTION 01',viewerProductText:'Oversized fit · black · signature back detail.',chooseSize:'CHOOSE SIZE',buyNow:'Buy item',buySet:'Choose the set',catalog:'CATALOG',productsTitle:'Choose your<br>set.',productsText:'Choose a size and place your order. Delivery is calculated separately.',choose:'SELECT',detailsEyebrow:'SMALL DETAILS. DISTINCT CHARACTER.',detailsTitle:'Every detail<br>has a purpose.',detailsText:'Fabric texture, signature embroidery, packaging, and collection accents.',detailHood:'Hood shape',detailZip:'Zip and hardware',detailBack:'Signature back detail',detailPack:'Brand packaging',faqEyebrow:'BEFORE YOU ORDER',faqTitle:'Frequently<br>asked questions.',faq1q:'How do I pay?',faq1a:'After submitting the form, the MBank / ELQR QR code will appear. After transferring, attach your receipt and send the order to Telegram. The site does not automatically verify payment.',faq2q:'How does delivery work?',faq2a:'Delivery within Kyrgyzstan is agreed when the order is confirmed. International delivery is paid separately.',faq3q:'How do I confirm payment?',faq3a:'Attach an image or PDF of your receipt in the payment form. Telegram will open with your order details; attach the receipt manually in Telegram if the browser cannot pass it automatically.',footerText:'Made to be yours.',orderStep:'STEP 1 / ORDER DETAILS',checkoutTitle:'Checkout',firstName:'First name',lastName:'Last name',phone:'Phone number',email:'Email address',product:'Item',optSet:'Set — 10,800 som',optHoodie:'Hoodie — 6,400 som',optPants:'Pants — 4,999 som',size:'Size',delivery:'Delivery',deliveryKg:'Within Kyrgyzstan',deliveryIntl:'International (paid)',kgAddress:'City, street, building / delivery address',intlAddress:'Country, city, and full address',comment:'Order note (optional)',consent:'I confirm these details are correct and agree to be contacted about delivery.',continuePayment:'Continue to payment',orderStep2:'STEP 2 / PAYMENT',paymentTitle:'Pay with QR code',timeForPayment:'TIME TO PAY',paymentInstructions:'Open your banking app and scan the full QR code. After transferring, attach your receipt below. The site does not automatically verify incoming payments.',receiptLabel:'Attach payment receipt',noFile:'No file selected',receiptHint:'The receipt stays on your device. Some browsers cannot attach a file to Telegram automatically — attach it manually in Telegram if needed.',sendTelegram:'Send order to Telegram',copyOrder:'Copy order details',timerNote:'The timer is only a browser reminder. It does not cancel a transfer or confirm payment.',kg:'Kyrgyzstan',intl:'International delivery',deliveryFee:'Delivery charged separately',total:'Order total',receiptChosen:'Selected file: ',missingAddress:'Please enter a delivery address.',copied:'Order details copied.',copyFail:'Could not copy. Please copy the details manually.',receiptBefore:'If you have paid, attach the receipt and send the order to Telegram. You can also attach the file in Telegram.',sizeRequired:'Please choose a size.'}};
-let lang='ru', selectedProduct='hoodie', viewerSize='M', currentOrder=null, timerInterval=null, secondsLeft=900;
-const prices={set:10800,hoodie:6400,pants:4999},names={set:{ru:'Комплект Black / Red Core',ky:'Black / Red Core топтому',en:'Black / Red Core set'},hoodie:{ru:'Худи на молнии',ky:'Сыдырмалуу худи',en:'Zip-up hoodie'},pants:{ru:'Брюки',ky:'Штаны',en:'Pants'}};
-const $=s=>document.querySelector(s);const $$=s=>[...document.querySelectorAll(s)];function tr(k){return (T[lang]&&T[lang][k])||T.ru[k]||k}function applyLang(){document.documentElement.lang=lang;$$('[data-i]').forEach(el=>{let k=el.dataset.i;if(T[lang][k])el.innerHTML=T[lang][k]});$('#language').value=lang;refreshSummary()}$('#language').addEventListener('change',e=>{lang=e.target.value;applyLang()});$('#menuBtn').addEventListener('click',()=>$('#nav').classList.toggle('open'));$$('.nav a').forEach(a=>a.addEventListener('click',()=>$('#nav').classList.remove('open')));window.addEventListener('scroll',()=>{let h=document.documentElement;$('#topline').style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';$('#header').classList.toggle('scrolled',scrollY>20)});const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');obs.unobserve(e.target)}}),{threshold:.12});$$('.reveal').forEach(el=>obs.observe(el));
-const viewImages=['images/front.jpg','images/back.jpg','images/hood.jpg','images/hood-detail.jpg'];let viewIndex=0;function setView(i){viewIndex=(i+viewImages.length)%viewImages.length;$('#viewerImage').src=viewImages[viewIndex];$('#viewerStage .viewer-badge').textContent=`0${viewIndex+1} / 0${viewImages.length}`}let startX=0;$('#viewerStage').addEventListener('touchstart',e=>startX=e.touches[0].clientX,{passive:true});$('#viewerStage').addEventListener('touchend',e=>{let dx=e.changedTouches[0].clientX-startX;if(Math.abs(dx)>35)setView(viewIndex+(dx<0?1:-1))},{passive:true});$('#viewerStage').addEventListener('click',e=>{if(e.clientX>window.innerWidth/2)setView(viewIndex+1);else setView(viewIndex-1)});$$('#viewerSizes .size').forEach(b=>b.addEventListener('click',()=>{$$('#viewerSizes .size').forEach(x=>x.classList.remove('active'));b.classList.add('active');viewerSize=b.dataset.size;$('#size').value=viewerSize}));
-function openCheckout(type='hoodie'){selectedProduct=type;$('#product').value=type;$('#size').value=viewerSize;$('#checkoutModal').classList.add('open');document.body.classList.add('lock');refreshSummary()}function closeModal(id){$('#'+id).classList.remove('open');if(!$('.modal.open'))document.body.classList.remove('lock')}$$('[data-close]').forEach(b=>b.addEventListener('click',()=>closeModal(b.dataset.close)));$$('.modal').forEach(m=>m.addEventListener('click',e=>{if(e.target===m)closeModal(m.id)}));$('#buyHoodie').addEventListener('click',()=>openCheckout('hoodie'));$('#addSet').addEventListener('click',()=>openCheckout('set'));$$('[data-buy]').forEach(b=>b.addEventListener('click',()=>openCheckout(b.dataset.buy)));$('#product').addEventListener('change',()=>{selectedProduct=$('#product').value;refreshSummary()});$$('[name=delivery]').forEach(r=>r.addEventListener('change',()=>{let intl=$('[name=delivery]:checked').value==='intl';$('#kgAddressWrap').classList.toggle('hidden',intl);$('#intlAddressWrap').classList.toggle('hidden',!intl);$('#kgAddress').required=!intl;$('#intlAddress').required=intl;refreshSummary()}));['firstName','lastName','phone','email','size','kgAddress','intlAddress','comment'].forEach(id=>$('#'+id).addEventListener('input',refreshSummary));
-function formData(){let f=new FormData($('#orderForm'));return {firstName:f.get('firstName')||'',lastName:f.get('lastName')||'',phone:f.get('phone')||'',email:f.get('email')||'',product:f.get('product')||selectedProduct,size:f.get('size')||'M',delivery:f.get('delivery')||'kg',address:(f.get('delivery')||'kg')==='kg'?(f.get('kgAddress')||''):(f.get('intlAddress')||''),comment:f.get('comment')||''}}
-function summaryText(o){let delivery=o.delivery==='kg'?tr('kg'):tr('intl')+' ('+tr('deliveryFee')+')';return `${tr('total')}: ${prices[o.product].toLocaleString('ru-RU')} сом\n${tr('product')}: ${names[o.product][lang]}\n${tr('size')}: ${o.size}\n${tr('firstName')}: ${o.firstName} ${o.lastName}\n${tr('phone')}: ${o.phone}\n${tr('email')}: ${o.email}\n${tr('delivery')}: ${delivery}\n${tr('kgAddress')}: ${o.address}\n${tr('comment')}: ${o.comment||'—'}`}
-function refreshSummary(){if(!$('#orderSummary'))return;let o=formData();$('#orderSummary').innerHTML=`<strong>${tr('total')}:</strong> ${prices[o.product].toLocaleString('ru-RU')} сом<br><strong>${tr('product')}:</strong> ${names[o.product][lang]}<br><strong>${tr('size')}:</strong> ${o.size}<br><strong>${tr('delivery')}:</strong> ${o.delivery==='kg'?tr('kg'):tr('intl')+' — '+tr('deliveryFee')}`;if(currentOrder)$('#paymentSummary').textContent=summaryText(currentOrder)}
-$('#orderForm').addEventListener('submit',e=>{e.preventDefault();let o=formData();if(!o.address.trim()){alert(tr('missingAddress'));return}currentOrder=o;$('#paymentOrderLine').textContent=`Заказ PK-${Math.floor(10000000+Math.random()*89999999)} · ${names[o.product][lang]} · ${prices[o.product].toLocaleString('ru-RU')} сом · ${o.delivery==='kg'?tr('kg'):tr('intl')}`;$('#paymentSummary').textContent=summaryText(o);closeModal('checkoutModal');$('#paymentModal').classList.add('open');document.body.classList.add('lock');startTimer()});function startTimer(){clearInterval(timerInterval);secondsLeft=900;updateTimer();timerInterval=setInterval(()=>{secondsLeft=Math.max(0,secondsLeft-1);updateTimer();if(!secondsLeft)clearInterval(timerInterval)},1000)}function updateTimer(){$('#timer').textContent=String(Math.floor(secondsLeft/60)).padStart(2,'0')+':'+String(secondsLeft%60).padStart(2,'0')}
-$('#receipt').addEventListener('change',e=>{$('#fileName').textContent=e.target.files.length?tr('receiptChosen')+e.target.files[0].name:tr('noFile')});async function copyOrder(){let text=summaryText(currentOrder||formData());try{await navigator.clipboard.writeText(text);alert(tr('copied'))}catch(e){let ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');alert(tr('copied'))}catch(_){alert(tr('copyFail')+'\n\n'+text)}ta.remove()}}$('#copyOrder').addEventListener('click',copyOrder);$('#sendTelegram').addEventListener('click',()=>{if(!currentOrder)return;let file=$('#receipt').files[0];let msg='НОВЫЙ ЗАКАЗ PROKHATSKY\n\n'+summaryText(currentOrder)+'\n\n'+(file?'ЧЕК ВЫБРАН: '+file.name+'\nПожалуйста, прикрепите файл к этому сообщению в Telegram.':'Чек оплаты: клиент приложит его в Telegram после перехода.')+'\n\nЗаказ оформлен через сайт. Пожалуйста, подтвердите получение и согласуйте доставку.';let url='https://t.me/prokhatskii?text='+encodeURIComponent(msg);window.open(url,'_blank','noopener');});
-applyLang();$('#kgAddress').required=true;
+
+const prices={set:10800,hoodie:6400,pants:4999};
+
+const names={set:"Комплект",hoodie:"Худи на молнии",pants:"Брюки"};
+
+const dict={
+
+ru:{
+
+navCollection:"Коллекция",navStory:"О бренде",navOrder:"Заказ",eyebrow:"Первый дроп · Бишкек",heroText:"Уличная одежда с характером. Чистый силуэт, внимание к деталям и тонкие отсылки к кыргызскому наследию.",viewCollection:"Смотреть коллекцию ↗",orderNow:"Оформить заказ",collectionTitle:"Первый дроп",collectionDesc:"Чёрный силуэт. Глубокий бордовый акцент. Ничего лишнего.",hoodie:"Худи на молнии",hoodieDesc:"Оверсайз · плотная ткань · вышитая буква P",pants:"Брюки",pantsDesc:"Свободный силуэт · детали коллекции",set:"Комплект",setDesc:"Худи и брюки из Collection 01",choose:"Выбрать товар ↗",philosophy:"Философия бренда",storyTitle:"Своё. Честное. Надолго.",storyText:"PROKHATSKY объединяет современный streetwear и тонкие мотивы кыргызского наследия. Орнамент — часть истории, которую мы несём дальше.",material:"Материал",materialValue:"Трёхнитка с начёсом",fit:"Посадка",fitValue:"Oversized / свободная",details:"Детали",detailsValue:"Вышивка · түндүк · атлас",orderKicker:"Твой заказ",orderTitle:"Оформление заказа",orderDesc:"Заполни данные, выбери доставку и перейди к оплате.",productLabel:"Товар",sizeLabel:"Размер",qtyLabel:"Количество",firstLabel:"Имя",lastLabel:"Фамилия",phoneLabel:"Телефон",emailLabel:"Электронная почта",deliveryLabel:"Доставка",addressLabel:"Город и полный адрес",commentLabel:"Комментарий (необязательно)",receiptLabel:"Чек оплаты (изображение или PDF)",totalLabel:"Итого за товары:",shippingNote:"Международная доставка рассчитывается отдельно.",payButton:"Перейти к оплате ↗",qrTitle:"Оплата через QR",qrDesc:"Открой банковское приложение и отсканируй QR-код.",qrNote:"Перед оплатой проверь получателя и сумму.",telegramButton:"Открыть Telegram ↗",receiptNote:"После оплаты открой Telegram, отправь данные заказа и прикрепи чек вручную. Сайт не отправляет чек автоматически.",missing:"Заполни все обязательные поля.",prepared:"Данные заказа подготовлены. Скопируй текст сообщения и отправь его в Telegram. Чек прикрепи вручную.",world:"За границу — доставка платная",kg:"По Кыргызстану"
+
+},
+
+ky:{
+
+navCollection:"Коллекция",navStory:"Бренд жөнүндө",navOrder:"Буйрутма",eyebrow:"Биринчи дроп · Бишкек",heroText:"Мүнөзү бар streetwear. Так силуэт, сапаттуу деталдар жана кыргыз мурасына назик шилтемелер.",viewCollection:"Коллекцияны көрүү ↗",orderNow:"Буйрутма берүү",collectionTitle:"Биринчи дроп",collectionDesc:"Кара силуэт. Терең бордо түсү. Ашыкча эч нерсе жок.",hoodie:"Сыдырмалуу худи",hoodieDesc:"Оверсайз · тыгыз кездеме · P тамгасынын саймасы",pants:"Шым",pantsDesc:"Эркин силуэт · коллекциянын деталдары",set:"Комплект",setDesc:"Collection 01 худиси жана шымы",choose:"Тандоо ↗",philosophy:"Бренддин философиясы",storyTitle:"Өзүбүздүкү. Чынчыл. Узакка.",storyText:"PROKHATSKY заманбап streetwear стилин кыргыз мурасынын назик мотивдери менен айкалыштырат.",material:"Материал",materialValue:"Үч жиптүү, ичи түктүү кездеме",fit:"Кесилиши",fitValue:"Кең / oversized",details:"Деталдар",detailsValue:"Сайма · түндүк · атлас",orderKicker:"Сенин буйрутмаң",orderTitle:"Буйрутма берүү",orderDesc:"Маалыматты толтур, жеткирүүнү танда жана төлөөгө өт.",productLabel:"Товар",sizeLabel:"Өлчөм",qtyLabel:"Саны",firstLabel:"Аты",lastLabel:"Фамилиясы",phoneLabel:"Телефон",emailLabel:"Электрондук почта",deliveryLabel:"Жеткирүү",addressLabel:"Шаар жана толук дарек",commentLabel:"Комментарий (милдеттүү эмес)",receiptLabel:"Төлөм чеги (сүрөт же PDF)",totalLabel:"Товарлардын жалпы баасы:",shippingNote:"Эл аралык жеткирүү өзүнчө эсептелет.",payButton:"Төлөөгө өтүү ↗",qrTitle:"QR аркылуу төлөө",qrDesc:"Банк тиркемесин ачып, QR-кодду сканерле.",qrNote:"Төлөөнүн алдында алуучуну жана сумманы текшер.",telegramButton:"Telegram ачуу ↗",receiptNote:"Төлөгөндөн кийин Telegramга өтүп, буйрутма маалыматын жөнөт. Чекти өзүң тирке.",missing:"Милдеттүү талааларды толтур.",prepared:"Буйрутманын маалыматы даяр. Telegramга текстти жөнөтүп, чекти өзүң тирке.",world:"Чет өлкөгө — жеткирүү акы төлөнөт",kg:"Кыргызстан боюнча"
+
+},
+
+en:{
+
+navCollection:"Collection",navStory:"Our story",navOrder:"Order",eyebrow:"First drop · Bishkek",heroText:"Streetwear with character. A clean silhouette, considered details and subtle references to Kyrgyz heritage.",viewCollection:"Explore collection ↗",orderNow:"Place an order",collectionTitle:"The first drop",collectionDesc:"Black silhouette. Deep burgundy accent. Nothing unnecessary.",hoodie:"Zip-up hoodie",hoodieDesc:"Oversized · heavyweight fabric · embroidered P",pants:"Pants",pantsDesc:"Relaxed silhouette · collection details",set:"Complete set",setDesc:"Hoodie and pants from Collection 01",choose:"Choose ↗",philosophy:"Brand philosophy",storyTitle:"Authentic. Honest. Made to last.",storyText:"PROKHATSKY combines modern streetwear with subtle references to Kyrgyz heritage.",material:"Material",materialValue:"Heavy three-thread fleece",fit:"Fit",fitValue:"Oversized / relaxed",details:"Details",detailsValue:"Embroidery · tunduk · satin",orderKicker:"Your order",orderTitle:"Place an order",orderDesc:"Enter your details, choose delivery and proceed to payment.",productLabel:"Product",sizeLabel:"Size",qtyLabel:"Quantity",firstLabel:"First name",lastLabel:"Last name",phoneLabel:"Phone",emailLabel:"Email",deliveryLabel:"Delivery",addressLabel:"City and full address",commentLabel:"Order note (optional)",receiptLabel:"Payment receipt (image or PDF)",totalLabel:"Products total:",shippingNote:"International shipping is calculated separately.",payButton:"Continue to payment ↗",qrTitle:"Pay by QR",qrDesc:"Open your banking app and scan the QR code.",qrNote:"Verify the recipient and amount before paying.",telegramButton:"Open Telegram ↗",receiptNote:"After payment, open Telegram, send your order details and attach the receipt manually.",missing:"Please complete all required fields.",prepared:"Order details are ready. Send the message in Telegram and attach your receipt manually.",world:"International — shipping paid separately",kg:"Within Kyrgyzstan"
+
+}};
+
+function setLanguage(lang){
+
+ document.documentElement.lang=lang;
+
+ document.querySelectorAll("[data-t]").forEach(el=>{
+
+  const k=el.dataset.t;if(dict[lang][k])el.textContent=dict[lang][k]
+
+ });
+
+ const p=document.getElementById("product");
+
+ [...p.options].forEach(o=>{o.textContent=({set:{ru:"Комплект — 10 800 сом",ky:"Комплект — 10 800 сом",en:"Complete set — 10,800 som"},hoodie:{ru:"Худи — 6 400 сом",ky:"Худи — 6 400 сом",en:"Hoodie — 6,400 som"},pants:{ru:"Брюки — 4 999 сом",ky:"Шым — 4 999 сом",en:"Pants — 4,999 som"}}[o.value][lang])});
+
+ document.getElementById("delivery").options[0].textContent=dict[lang].kg;
+
+ document.getElementById("delivery").options[1].textContent=dict[lang].world;
+
+ updateTotal()
+
+}
+
+function selectProduct(p){
+
+ document.getElementById("product").value=p;updateTotal();
+
+ document.getElementById("order").scrollIntoView({behavior:"smooth"})
+
+}
+
+function updateTotal(){
+
+ const p=document.getElementById("product").value;
+
+ const q=Number(document.getElementById("qty").value||1);
+
+ document.getElementById("total").textContent=(prices[p]*q).toLocaleString("ru-RU")+" сом"
+
+}
+
+const observer=new IntersectionObserver(entries=>{
+
+ entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add("visible");observer.unobserve(e.target)}})
+
+},{threshold:.12});
+
+document.querySelectorAll(".reveal").forEach(el=>observer.observe(el));
+
+window.addEventListener("scroll",()=>{
+
+ const max=document.documentElement.scrollHeight-innerHeight;
+
+ document.getElementById("progress").style.width=(max>0?scrollY/max*100:0)+"%";
+
+ document.getElementById("header").classList.toggle("scrolled",scrollY>20)
+
+},{passive:true});
+
+function toast(msg){const t=document.getElementById("toast");t.textContent=msg;t.classList.add("show");setTimeout(()=>t.classList.remove("show"),5500)}
+
+document.getElementById("orderForm").addEventListener("submit",e=>{
+
+ e.preventDefault();
+
+ const lang=document.getElementById("lang").value,d=dict[lang],f=new FormData(e.target);
+
+ const product=document.getElementById("product");
+
+ const delivery=document.getElementById("delivery");
+
+ const receipt=document.getElementById("receipt").files[0];
+
+ const message=[
+
+ "PROKHATSKY — НОВЫЙ ЗАКАЗ",
+
+ "Имя: "+f.get("first")+" "+f.get("last"),
+
+ "Телефон: "+f.get("phone"),
+
+ "Email: "+f.get("email"),
+
+ "Товар: "+product.options[product.selectedIndex].text,
+
+ "Размер: "+f.get("size"),
+
+ "Количество: "+f.get("qty"),
+
+ "Сумма за товары: "+document.getElementById("total").textContent,
+
+ "Доставка: "+delivery.options[delivery.selectedIndex].text,
+
+ "Адрес: "+f.get("address"),
+
+ "Комментарий: "+(f.get("comment")||"—"),
+
+ "Чек: "+(receipt?receipt.name:"не выбран")
+
+ ].join("\n");
+
+ try{sessionStorage.setItem("prokhatsky_order",message)}catch(err){}
+
+ toast(d.prepared);
+
+ window.open("https://t.me/prokhatskii","_blank","noopener")
+
+});
+
+updateTotal();
+
 </script>
-</body></html>
+
+</body>
+
+</html>
